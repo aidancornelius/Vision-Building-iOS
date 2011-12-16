@@ -5,13 +5,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>It's a ship, that leads</string>
+	<string>Vision Build</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>appicon.png</string>
-		<string>appiconRetina.png</string>
+		<string>appIcon.png</string>
+		<string>appIconRetina.png</string>
+		<string>appIcon.png</string>
+		<string>appIconRetina.png</string>
 	</array>
 	<key>CFBundleIcons</key>
 	<dict>
@@ -19,8 +21,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
-				<string>appicon.png</string>
-				<string>appiconRetina.png</string>
+				<string>appIcon.png</string>
+				<string>appIconRetina.png</string>
+				<string>appIcon.png</string>
+				<string>appIconRetina.png</string>
 			</array>
 			<key>UIPrerenderedIcon</key>
 			<false/>

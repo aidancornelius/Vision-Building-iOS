@@ -24,13 +24,25 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString *urlAddress = @"http://genleadership.com/mobileapp/ver?l=240";
+    // wView Stuff { 
+    
+    NSString *urlAddress = @"http://genleadership.com/mobile/visionbuilding/"; //verifynano.php?ver?l=240
     NSURL *url = [NSURL URLWithString:urlAddress];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
     [wView loadRequest:requestObj];
     
-    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleBlackTranslucent];
-    [UIApplication sharedApplication].applicationIconBadgeNumber = 9;
+    NSString * jsCallBack = @"window.getSelection().removeAllRanges();";    
+    [wView stringByEvaluatingJavaScriptFromString:jsCallBack];
+    
+    // }
+    
+    // UI Setup {
+    
+    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleDefault];
+    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    
+    // }
+    
 }
 
 - (void)viewDidUnload

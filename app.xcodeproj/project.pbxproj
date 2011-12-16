@@ -25,6 +25,8 @@
 		12194F311490D4B900E7A47E /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 12194F301490D4B900E7A47E /* appicon.png */; };
 		12194F331490D4BE00E7A47E /* appiconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 12194F321490D4BE00E7A47E /* appiconRetina.png */; };
 		12194F351490D55E00E7A47E /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 12194F341490D55E00E7A47E /* head.png */; };
+		129224AE149B06E400097810 /* appIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 129224AD149B06E400097810 /* appIcon.png */; };
+		129224B0149B06E900097810 /* appIconRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = 129224AF149B06E900097810 /* appIconRetina.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		12194F301490D4B900E7A47E /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		12194F321490D4BE00E7A47E /* appiconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appiconRetina.png; sourceTree = "<group>"; };
 		12194F341490D55E00E7A47E /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		129224AD149B06E400097810 /* appIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIcon.png; sourceTree = "<group>"; };
+		129224AF149B06E900097810 /* appIconRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appIconRetina.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		12194EE81490D18700E7A47E = {
 			isa = PBXGroup;
 			children = (
+				129224AF149B06E900097810 /* appIconRetina.png */,
+				129224AD149B06E400097810 /* appIcon.png */,
 				12194F341490D55E00E7A47E /* head.png */,
 				12194F321490D4BE00E7A47E /* appiconRetina.png */,
 				12194F301490D4B900E7A47E /* appicon.png */,
@@ -244,6 +250,8 @@
 				12194F311490D4B900E7A47E /* appicon.png in Resources */,
 				12194F331490D4BE00E7A47E /* appiconRetina.png in Resources */,
 				12194F351490D55E00E7A47E /* head.png in Resources */,
+				129224AE149B06E400097810 /* appIcon.png in Resources */,
+				129224B0149B06E900097810 /* appIconRetina.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
